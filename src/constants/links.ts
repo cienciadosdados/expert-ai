@@ -46,40 +46,39 @@ export const SIDEBAR_LINKS: Link[] = [
 
 export const FOOTER_LINKS = [
     {
-        title: "Product",
+        title: "Produto",
         links: [
-            { name: "Home", href: "/" },
-            { name: "Features", href: "/" },
-            { name: "Pricing", href: "/" },
-            { name: "Contact", href: "/" },
-            { name: "Download", href: "/" },
+            { name: "Início", href: "https://lp.cienciadosdados.com/" },
+            { name: "Serviços", href: "https://lp.cienciadosdados.com/" },
+            { name: "Preços", href: "https://lp.cienciadosdados.com/" },
+            { name: "Contato", href: "https://lp.cienciadosdados.com/" },
         ],
     },
     {
-        title: "Resources",
+        title: "Recursos",
         links: [
-            { name: "Blog", href: "/blog" },
-            { name: "Help Center", href: "/help-center" },
-            { name: "Community", href: "/community" },
-            { name: "Guides", href: "/guides" },
+            { name: "Blog", href: "https://lp.cienciadosdados.com/" },
+            { name: "Central de Ajuda", href: "https://lp.cienciadosdados.com/" },
+            { name: "Comunidade", href: "https://lp.cienciadosdados.com/" },
+            { name: "Guias", href: "https://lp.cienciadosdados.com/" },
         ],
     },
     {
         title: "Legal",
         links: [
-            { name: "Privacy", href: "/privacy" },
-            { name: "Terms", href: "/terms" },
-            { name: "Cookies", href: "/cookies" },
+            { name: "Privacidade", href: "https://lp.cienciadosdados.com/" },
+            { name: "Termos", href: "https://lp.cienciadosdados.com/" },
+            { name: "Cookies", href: "https://lp.cienciadosdados.com/" },
         ],
     },
     {
-        title: "Developers",
+        title: "Soluções",
         links: [
-            { name: "API Docs", href: "/api-docs" },
-            { name: "SDKs", href: "/sdks" },
-            { name: "Tools", href: "/tools" },
-            { name: "Open Source", href: "/open-source" },
-            { name: "Changelog", href: "/changelog" },
+            { name: "Agentes de IA", href: "https://lp.cienciadosdados.com/" },
+            { name: "Análise de Dados", href: "https://lp.cienciadosdados.com/" },
+            { name: "Consultoria", href: "https://lp.cienciadosdados.com/" },
+            { name: "Treinamento", href: "https://lp.cienciadosdados.com/" },
+            { name: "Suporte", href: "https://lp.cienciadosdados.com/" },
         ],
     },
 ];

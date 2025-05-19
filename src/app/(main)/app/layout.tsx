@@ -1,23 +1,22 @@
-import DashboardNavbar from "@/components/dashboard/dashboard-navbar";
-import DashboardSidebar from "@/components/dashboard/dashboard-sidebar";
-import React from 'react';
+"use client";
+
+import { useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 
 interface Props {
     children: React.ReactNode;
 }
 
 const DashboardLayout = ({ children }: Props) => {
-    return (
-        <div className="flex flex-col min-h-screen w-full">
-            <DashboardNavbar />
-            <main className="flex flex-col lg:flex-row flex-1 size-full">
-                <DashboardSidebar />
-                <div className="w-full pt-14 lg:ml-72">
-                    {children}
-                </div>
-            </main>
-        </div>
-    );
+    const router = useRouter();
+    
+    useEffect(() => {
+        // Redirecionar para o site externo quando alguém tentar acessar o dashboard
+        window.location.href = 'https://lp.cienciadosdados.com/';
+    }, []);
+
+    // Este retorno nunca será renderizado devido ao redirecionamento
+    return null;
 };
 
 export default DashboardLayout;

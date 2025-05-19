@@ -7,75 +7,75 @@ type REVIEW = {
 
 export const REVIEWS: REVIEW[] = [
     {
-        name: "Arjun Singh",
-        username: "@arjunsingh",
-        review: "This platform has revolutionized the way I manage my projects. The AI tools are a game-changer!",
+        name: "Carlos Silva",
+        username: "@carlossilva",
+        review: "A consultoria da Expert AI revolucionou a maneira como gerencio meus projetos. Os agentes de IA são transformadores!",
         img: "https://randomuser.me/api/portraits/men/1.jpg"
     },
     {
-        name: "Priya Nair",
-        username: "@priyanair",
-        review: "Absolutely love the seamless integration with social media. It's made my content creation process so much easier.",
+        name: "Ana Oliveira",
+        username: "@anaoliveira",
+        review: "Adorei a integração perfeita com nossos sistemas existentes. Tornou nossos processos muito mais eficientes e ágeis.",
         img: "https://randomuser.me/api/portraits/women/2.jpg"
     },
     {
-        name: "Rohan Mehta",
-        username: "@rohanmehta",
-        review: "The features offered here are unmatched. My productivity has soared since I started using this service.",
+        name: "Ricardo Santos",
+        username: "@ricardosantos",
+        review: "Os serviços oferecidos pela Expert AI são incomparáveis. Nossa produtividade disparou desde que começamos a usar os agentes de IA.",
         img: "https://randomuser.me/api/portraits/men/3.jpg"
     },
     {
-        name: "Sneha Patel",
-        username: "@snehapatel",
-        review: "Customer support is top-notch. They’re always ready to assist with any queries I have.",
+        name: "Camila Mendes",
+        username: "@camilamendes",
+        review: "O suporte ao cliente é excelente. Eles estão sempre prontos para ajudar com qualquer dúvida que eu tenha sobre os agentes de IA.",
         img: "https://randomuser.me/api/portraits/women/4.jpg"
     },
     {
-        name: "Ankit Sharma",
-        username: "@ankitsharma",
-        review: "The customization options available are perfect for my business needs. Highly recommended!",
+        name: "Marcelo Costa",
+        username: "@marcelocosta",
+        review: "As opções de personalização disponíveis são perfeitas para as necessidades da minha empresa. Altamente recomendado!",
         img: "https://randomuser.me/api/portraits/men/5.jpg"
     },
     {
-        name: "Meera Kapoor",
-        username: "@meerakapoor",
-        review: "The intuitive design and ease of use make this platform stand out. It's a must-have for any business.",
+        name: "Fernanda Lima",
+        username: "@fernandalima",
+        review: "A abordagem intuitiva e a facilidade de implementação dos agentes de IA fazem a Expert AI se destacar. É essencial para qualquer empresa.",
         img: "https://randomuser.me/api/portraits/women/6.jpg"
     },
     {
-        name: "Vikram Desai",
-        username: "@vikramdesai",
-        review: "From analytics to AI-powered tools, this service covers everything I need to grow my business.",
+        name: "Gabriel Almeida",
+        username: "@gabrielalmeida",
+        review: "Da análise de dados aos agentes de IA, este serviço cobre tudo o que preciso para fazer meu negócio crescer.",
         img: "https://randomuser.me/api/portraits/men/7.jpg"
     },
     {
-        name: "Anjali Menon",
-        username: "@anjalimenon",
-        review: "I’m impressed with how much value I’m getting at this price point. It's worth every penny!",
+        name: "Juliana Martins",
+        username: "@julianamartins",
+        review: "Estou impressionada com o quanto de valor estou obtendo com este investimento. Vale cada centavo!",
         img: "https://randomuser.me/api/portraits/women/8.jpg"
     },
     {
-        name: "Karan Gupta",
-        username: "@karangupta",
-        review: "The AI content generation is phenomenal. It saves me hours of work every week.",
+        name: "Lucas Ferreira",
+        username: "@lucasferreira",
+        review: "Os agentes de IA desenvolvidos pela Expert AI são fenomenais. Economizam horas de trabalho toda semana para nossa equipe.",
         img: "https://randomuser.me/api/portraits/men/9.jpg"
     },
     {
-        name: "Neha Verma",
-        username: "@nehaverma",
-        review: "I love how everything is organized in one place. It makes managing my tasks so much easier.",
+        name: "Beatriz Souza",
+        username: "@beatrizsouza",
+        review: "Adoro como tudo é organizado em um só lugar. Torna o gerenciamento das nossas tarefas muito mais fácil com a IA.",
         img: "https://randomuser.me/api/portraits/women/10.jpg"
     },
     {
-        name: "Siddharth Jain",
-        username: "@siddharthjain",
-        review: "Their platform is robust, and I have seen a significant improvement in my workflow since I started using it.",
+        name: "Pedro Rocha",
+        username: "@pedrorocha",
+        review: "A consultoria deles é robusta, e vi uma melhoria significativa no fluxo de trabalho desde que implementamos os agentes de IA.",
         img: "https://randomuser.me/api/portraits/men/11.jpg"
     },
     {
-        name: "Divya Iyer",
-        username: "@divyaiyer",
-        review: "Fantastic service! The updates and new features keep getting better and better.",
+        name: "Mariana Costa",
+        username: "@marianacosta",
+        review: "Serviço fantástico! As atualizações e novos recursos dos agentes de IA continuam melhorando cada vez mais.",
         img: "https://randomuser.me/api/portraits/women/12.jpg"
     }
 ];

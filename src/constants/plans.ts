@@ -12,60 +12,60 @@ type PLAN = {
 
 export const PLANS: PLAN[] = [
     {
-        id: "free",
-        title: "Free",
-        desc: "Get started with essential tools for social media content creation",
-        monthlyPrice: 0,
-        yearlyPrice: 0,
-        buttonText: "Get Started",
+        id: "basic",
+        title: "Básico",
+        desc: "Consultoria inicial ideal para empresas que estão iniciando sua jornada com inteligência artificial",
+        monthlyPrice: 1500,
+        yearlyPrice: 15000,
+        buttonText: "Solicitar proposta",
         features: [
-            "Basic AI content generation",
-            "4 social media integrations",
-            "Community support",
-            "1 project limit",
-            "Standard analytics",
-            "Basic image generation"
+            "Avaliação completa de necessidades",
+            "Desenvolvimento de 1 agente de IA personalizado",
+            "Suporte por email em horário comercial",
+            "Implementação básica assistida",
+            "Treinamento inicial para sua equipe",
+            "Relatório detalhado de desempenho mensal"
         ],
-        link: "https://stripe.com/free-plan-link"
+        link: "https://lp.cienciadosdados.com/"
     },
     {
         id: "pro",
-        title: "Pro",
-        desc: "Unlock advance features for enhanced content and strategy",
-        monthlyPrice: 10,
-        yearlyPrice: 120,
-        badge: "Most Popular",
-        buttonText: "Upgrade to Pro",
+        title: "Empresarial",
+        desc: "Solução completa e robusta para empresas que desejam implementar IA em escala e obter resultados superiores",
+        monthlyPrice: 3500,
+        yearlyPrice: 35000,
+        badge: "Mais Popular",
+        buttonText: "Falar com consultor",
         features: [
-            "Advanced AI content generation",
-            "10 social media integrations",
-            "Priority email support",
-            "10 project limit",
-            "Enhanced analytics & insights",
-            "Pro model image generation",
-            "Team collaboration tools",
-            "Custom branding options"
+            "Avaliação detalhada e aprofundada de processos",
+            "Desenvolvimento de até 3 agentes de IA avançados",
+            "Suporte prioritário com tempo de resposta garantido",
+            "Integração completa com sistemas existentes",
+            "Análise de dados avançada com insights estratégicos",
+            "Treinamento completo e personalizado da equipe",
+            "Relatórios semanais detalhados de desempenho",
+            "Revisões trimestrais de estratégia e otimização"
         ],
-        link: "https://stripe.com/pro-plan-link"
+        link: "https://lp.cienciadosdados.com/"
     },
     {
         id: "enterprise",
-        title: "Enterprise",
-        desc: "Tailored solutions for large organizations and agencies",
-        monthlyPrice: 15,
-        yearlyPrice: 180,
-        badge: "Contact Sales",
-        buttonText: "Upgrade to Enterprise",
+        title: "Personalizado",
+        desc: "Soluções premium totalmente personalizadas para grandes organizações com necessidades complexas e específicas",
+        monthlyPrice: 8000,
+        yearlyPrice: 80000,
+        badge: "Personalizado",
+        buttonText: "Agendar reunião",
         features: [
-            "Unlimited AI content generation",
-            "All social media integrations",
-            "Dedicated account manager",
-            "Unlimited projects",
-            "Custom analytics & reporting",
-            "Enterprise-grade security",
-            "Free updates",
-            // "24/7 priority support"
+            "Desenvolvimento ilimitado de agentes de IA",
+            "Consultoria estratégica executiva completa",
+            "Gerente de conta exclusivo e dedicado",
+            "Integração perfeita com todos os sistemas",
+            "Análise preditiva avançada com machine learning",
+            "Segurança nível empresarial com criptografia",
+            "Atualizações prioritárias e personalizações exclusivas",
+            "Suporte técnico premium 24/7"
         ],
-        link: "https://stripe.com/enterprise-plan-link"
+        link: "https://lp.cienciadosdados.com/"
     }
 ];

@@ -1,7 +1,7 @@
 "use client";
 
 import { cn } from "@/functions";
-import { useClerk } from "@clerk/nextjs";
+// Removida dependência do Clerk
 import { ArrowRightIcon, XIcon } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from 'react';
@@ -13,7 +13,7 @@ import MobileMenu from "./mobile-menu";
 
 const Navbar = () => {
 
-    const { user } = useClerk();
+    // Removida referência ao usuário do Clerk
 
     const [isOpen, setIsOpen] = useState<boolean>(false);
 
@@ -51,27 +51,17 @@ const Navbar = () => {
                             </div>
                         </div>
                         <div className="items-center flex gap-2 lg:gap-4">
-                            {user ? (
-                                <Button size="sm" variant="white" asChild className="hidden sm:flex">
-                                    <Link href="/app">
-                                        Dashboard
-                                    </Link>
-                                </Button>
-                            ) : (
-                                <>
-                                    <Button size="sm" variant="tertiary" asChild className="hover:translate-y-0 hover:scale-100">
-                                        <Link href="/auth/signin">
-                                            Login
-                                        </Link>
-                                    </Button>
-                                    <Button size="sm" variant="white" asChild className="hidden sm:flex">
-                                        <Link href="/auth/signup">
-                                            Start for free
-                                            <ArrowRightIcon className="w-4 h-4 ml-2 hidden lg:block" />
-                                        </Link>
-                                    </Button>
-                                </>
-                            )}
+                            <Button size="sm" variant="tertiary" asChild className="hover:translate-y-0 hover:scale-100">
+                                <Link href="https://lp.cienciadosdados.com/" target="_blank" rel="noopener noreferrer">
+                                    Fale Conosco
+                                </Link>
+                            </Button>
+                            <Button size="sm" variant="white" asChild className="hidden sm:flex">
+                                <Link href="https://lp.cienciadosdados.com/" target="_blank" rel="noopener noreferrer">
+                                    Solicitar Consultoria
+                                    <ArrowRightIcon className="w-4 h-4 ml-2 hidden lg:block" />
+                                </Link>
+                            </Button>
                             <Button
                                 size="icon"
                                 variant="ghost"

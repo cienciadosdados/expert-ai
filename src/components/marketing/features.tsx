@@ -12,12 +12,12 @@ const Features = () => {
         <div className="flex flex-col items-center justify-center py-12 md:py-16 lg:py-24 w-full">
             <Container>
                 <div className="flex flex-col items-center text-center max-w-2xl mx-auto">
-                    <SectionBadge title="Features" />
+                    <SectionBadge title="Serviços" />
                     <h2 className="text-2xl md:text-4xl lg:text-5xl font-heading font-medium !leading-snug mt-6">
-                        Create content faster <br /> and smarter
+                        Soluções Inteligentes <br /> para seu Negócio
                     </h2>
                     <p className="text-base md:text-lg text-center text-accent-foreground/80 mt-6">
-                        Transform your social media strategy with Luro AI&apos;s cutting-edge features, designed to optimize your content creation and engagement like never before.
+                        Transforme sua empresa com soluções de inteligência artificial personalizadas. Nossa consultoria especializada ajuda a implementar agentes inteligentes que automatizam tarefas, otimizam processos e aumentam significativamente seus resultados.
                     </p>
                 </div>
             </Container>
@@ -40,10 +40,10 @@ const Features = () => {
                                     </div>
                                     <div className="flex flex-col">
                                         <h4 className="text-xl font-heading font-medium heading ">
-                                            Get advanced analytics
+                                            Análise de Dados Avançada
                                         </h4>
                                         <p className="text-sm md:text-base mt-2 text-muted-foreground">
-                                            Track your performance with detailed analytics and optimize to get better results.
+                                            Análise detalhada dos seus dados empresariais para identificar oportunidades de otimização e automação com inteligência artificial.
                                         </p>
                                     </div>
                                 </div>
@@ -60,10 +60,10 @@ const Features = () => {
                                     </div>
                                     <div className="flex flex-col mt-auto">
                                         <h4 className="text-xl font-heading font-medium heading">
-                                            Content ideation
+                                            Desenvolvimento de Agentes
                                         </h4>
                                         <p className="text-sm md:text-base mt-2 text-muted-foreground">
-                                            Generate ideas for your content with our AI-powered tools to create engaging posts in seconds.
+                                            Criação de agentes de IA personalizados que automatizam tarefas repetitivas e otimizam processos específicos do seu negócio, aumentando a produtividade.
                                         </p>
                                     </div>
                                 </div>
@@ -73,7 +73,7 @@ const Features = () => {
                                     <div className="bento-card w-full relative items-center justify-center">
                                         <div className="w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                                             <p className="text-base text-muted-foreground text-justify [mask-image:radial-gradient(50%_50%_at_50%_50%,#BAB3FF_0%,rgba(186,179,255,0)_90.69%)]">
-                                                We use AI to help you create content that resonates with your audience. Our tools are designed to optimize your content creation and engagement like never before. Transform your social media strategy with Luro AI&apos;s cutting-edge features. Reach your audience with the right message at the right time. Create content faster and smarter with Luro AI. Transform your social media strategy with Luro AI&apos;s cutting-edge features. Create content faster and smarter with Luro AI. Transform your social media strategy with Luro AI&apos;s cutting-edge features. Create content faster and smarter with Luro AI.
+                                                Utilizamos tecnologias de ponta em inteligência artificial para desenvolver soluções personalizadas que atendem perfeitamente às necessidades específicas do seu negócio. Nossa consultoria especializada implementa agentes inteligentes que automatizam processos complexos, analisam grandes volumes de dados e geram insights estratégicos valiosos. Com a Expert AI, sua empresa lidera a transformação digital no seu setor, aproveitando todo o potencial da IA para otimizar operações, reduzir custos operacionais e aumentar significativamente a eficiência. Nossa equipe de especialistas trabalha em parceria com seu time para garantir uma implementação tranquila e eficaz de soluções de IA que realmente transformam resultados.
                                             </p>
                                         </div>
                                         <div className="w-full h-16 relative">
@@ -98,10 +98,10 @@ const Features = () => {
                                 <div className="bento-card w-full flex-row gap-6">
                                     <div className="flex flex-col mb-auto">
                                         <h4 className="text-xl font-heading font-medium heading ">
-                                            Seamless integrations
+                                            Integração com Sistemas Existentes
                                         </h4>
                                         <p className="text-sm md:text-base mt-2 text-muted-foreground">
-                                            Connect your favorite tools and platforms to streamline your workflow and save time.
+                                            Integramos perfeitamente nossas soluções de IA com seus sistemas e ferramentas já existentes, garantindo uma transição suave e sem interrupções nos seus processos.
                                         </p>
                                     </div>
                                     <div className="w-full h-28 relative">
@@ -121,10 +121,10 @@ const Features = () => {
                                     </div>
                                     <div className="flex flex-col mt-auto">
                                         <h4 className="text-xl font-heading font-medium heading ">
-                                            Image generation with AI
+                                            Treinamento e Capacitação
                                         </h4>
                                         <p className="text-sm md:text-base mt-2 text-muted-foreground">
-                                            Create stunning images with AI-powered tools in seconds.
+                                            Oferecemos programas completos de treinamento para capacitar sua equipe a utilizar e gerenciar com excelência todas as soluções de IA implementadas em sua empresa.
                                         </p>
                                     </div>
                                 </div>
@@ -136,10 +136,10 @@ const Features = () => {
                                     </div>
                                     <div className="flex flex-col mt-auto">
                                         <h4 className="text-xl font-heading font-medium heading ">
-                                            Hashtags suggestions
+                                            Suporte e Manutenção Contínua
                                         </h4>
                                         <p className="text-sm md:text-base mt-2 text-muted-foreground">
-                                            Get hashtag suggestions based on your content and audience to increase your reach and engagement.
+                                            Fornecemos suporte técnico especializado e manutenção contínua para garantir que suas soluções de IA funcionem perfeitamente e evoluam conforme as necessidades do seu negócio.
                                         </p>
                                     </div>
                                 </div>
